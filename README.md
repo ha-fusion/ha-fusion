@@ -1,4 +1,6 @@
-# ha-fusion
+# ha-fusion - community
+
+Note: This is a fork from matt8707, who created the project but stopped being active for a prolonged period of time.
 
 A modern, easy-to-use and performant custom [Home Assistant](https://www.home-assistant.io/) dashboard
 
@@ -6,7 +8,8 @@ A modern, easy-to-use and performant custom [Home Assistant](https://www.home-as
 
 [![preview](/static/preview.png)](https://www.youtube.com/watch?v=D8mWruSuPOM)
 
-If you find this project useful, be sure to 🌟 this repository! If you love it, please consider donating! ❤️ <https://www.paypal.com/paypalme/matt8707>
+<!--If you find this project useful, be sure to 🌟 this repository! If you love it, please consider donating! ❤️ <https://www.paypal.com/paypalme/matt8707>-->
+<!--I don't think it's appropiate to keep donations going, as the project will be supported by the community-->
 
 ---
 
@@ -22,7 +25,7 @@ The current state of this project is **pre-beta**. This means that there's basic
 
 For "Operating System" or "Supervised" installation methods, you can install ha-fusion as an add-on:
 
-1. **Add Repository**: To begin, add the ha-fusion add-on repository to your Home Assistant instance. Click the button below or manually add the repository using this URL: <https://github.com/matt8707/addon-ha-fusion>.
+1. **Add Repository**: To begin, add the ha-fusion add-on repository to your Home Assistant instance. Click the button below or manually add the repository using this URL: <https://github.com/ha-fusion/addon>.
 
    [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmatt8707%2Faddon-ha-fusion)
 
@@ -34,7 +37,7 @@ For "Operating System" or "Supervised" installation methods, you can install ha-
 
 If you're using the "Container" or "Core" installation methods, ha-fusion can be installed via Docker:
 
-1. **Docker Compose File**: Place your edited copy of the [docker-compose.yml](https://github.com/matt8707/ha-fusion/blob/main/docker-compose.yml) file in a suitable directory.
+1. **Docker Compose File**: Place your edited copy of the [docker-compose.yml](https://github.com/ha-fusion/ha-fusion/blob/main/docker-compose.yml) file in a suitable directory.
 
 2. **Create Container**:
    Run the following commands in your terminal to start the container:
@@ -74,7 +77,7 @@ docker run -d \
 
 #### Kubernetes
 
-If you prefer to use Kubernetes, see [Chart README.md](https://github.com/matt8707/ha-fusion/tree/167c320918544416e2f9272e1edad64b7329269a/charts/ha-fusion)
+If you prefer to use Kubernetes, see [Chart README.md](https://github.com/ha-fusion/ha-fusion/tree/167c320918544416e2f9272e1edad64b7329269a/charts/ha-fusion)
 
 </details>
 
